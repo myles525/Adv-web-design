@@ -1,0 +1,97 @@
+.vertical-menu {
+    width: 150px;
+}
+.vertical-menu a {
+    background-color: #1D8348; /* Grey background color */
+    color: #1D8348; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+  body {
+    background: #34495E;
+    padding: 2em;
+    color: whitesmoke;
+    font-family: "Georgia", "Courier New", monospace;
+    margin: 10px;
+    
+    
+    
+    
+  }
+
+
+ul{
+  background-color: #334756;
+  color: white;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+li{
+  float: left;
+  border-right: 2px solid #fff5e8;
+}
+li:last-child{
+  border-right: none;
+}
+li a {
+display: block;
+text-align: center;
+padding: 14px 16px;
+}
+li a:hover {
+background-color: #000000
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+p {
+  font-size: larger;
+  line-height: 2em;
+  
+}
+header {
+  text-align: center;
+}
+img {
+  float: left;
+  padding: 1em;
+}
+#wrap{
+  width: 75%;
+  margin: auto;
+  padding: 0em;
+  background-color: #889EAF;
+  overflow: hidden;
+}
+.active {
+  background-color: black;
+}
+footer {
+  
+  font-size: .8em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  
+  
+}
+nav {
+  position: sticky;
+}
+table, th, td {
+  border: 1px solid whitesmoke;
+}
